@@ -24,7 +24,7 @@ namespace fukuv0615
                 count = 0;
                 ans = rand.Next(0, 101);
             }
-            else if (guess > ans)
+            else if (guess < ans)
             {
                 MessageBox.Show("Greater");
             }
